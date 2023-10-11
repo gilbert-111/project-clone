@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: black;
+    box-sizing: border-box;
+    /* background-image: url(./white-bitcoin-cryptocurrency-coin-against-grey-background-d-rendering_601748-3476.avif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 10px 50px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px; 
+}
+
+nav header{
+  background-color: rgb(255, 255, 255);;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.logo button {
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    background-color: rgba(250,250,250, .7);
+}
+
+.logo button:hover {
+    color: rgba(37, 37, 37, 0.829);
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 265px;
+    background-color: rgba(250,250,250, .7);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-2 {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 265px;
+    background-color: rgba(250,250,250, .7);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+  }
+
+  .dropdown-content-2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgba(250,250,250, .7);}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {
+    display:block;
+}
+
+.show-2 {
+    display: block;
+}
+  
+  a{
+    text-decoration: none;
+  }
+
+  body{
+    background-image: url(./white-bitcoin-cryptocurrency-coin-against-grey-background-d-rendering_601748-3476.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.box1{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 450px;
+    margin-top: 80px;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 1px 1px 1px 1px #888888;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.vl{
+    margin: 20px;
+}
+
+.form input{
+  padding: 15px;
+  width: 220px;
+  background-color: rgb(223, 226, 226);
+  border-color: #ddd;
+}
+
+.decimals{
+  cursor: not-allowed;
+  margin-top: 10px;
+  z-index: -1;
+}
+
+a span{
+  border: 3px;
+  border-style: solid;
+  padding: 10px;
+  color: rgb(88, 196, 88);
+}
+
+.box1 button{
+  margin: 10px;
+  text-align: right;
+  justify-content: right;
+  width: 50px;
+  text-decoration: none;
+  background-color: rgba(250,250,250, .7);
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+hr{
+  width: 400px;
+  border-top: 1px solid black;
+}
+
+select{
+  background-color: rgb(223, 226, 226);
+  padding: 15px;
+  width: 180px;
+  border-color: #ddd;
+}
+
+button.exchange-now{
+  width: 380px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(56, 228, 56);
+}
+
+p{
+  margin-top: 15px;
+}
+
+p.text{
+  padding-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.animation{
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#below-animation{
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(122, 121, 121);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image{
+ display: block;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ margin-top: 40px;
+ width: 1000px;
+ background-color: rgba(250,250,250,255);
+}
+
+.two-boxes{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding-top: 40px;
+}
+
+.two-boxes div{
+  box-shadow: 2px 2px 2px 2px #888888;
+  text-align: justify;
+  width: 480px;
+  height: 550px;
+  padding: 50px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.two-boxes h1{
+  font-size: 28px;
+}
+
+.coin-box{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding-top: 30px;
+}
+
+.coin-box div{
+  text-align: justify;
+  width: 450px;
+  height: 300px;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(254, 255, 255);
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+
+div.Subscribe p{
+  display: inline;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.Subscribe{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  padding-top: 50px; 
+  background-color: #fffdfd;
+  padding: 35px;
+  margin: auto;
+  font-size: 24px; 
+  border-radius: 20px 20px 20px 20px;
+}
+
+div.Subscribe input{
+  background-color: rgb(240, 233, 233);
+  padding: 14px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 15px;
+}
+
+div.Subscribe button{
+  padding: 15px;
+  width: 110px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgb(56, 228, 56);
+  margin-left: 8px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.scan{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  justify-content: space-around;
+}
+
+.scanner{
+  height: 250px;
+  padding-top: 50px;
+}
+
+.scan h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mobiles{
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+/* threecards */
+.three-cards{
+  display: flex;
+  margin: 80px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+#card-1{
+  background-color: white;
+  padding: 35px;
+  border-radius: 12px 12px 12px 12px;
+}
+
+.fourboxes{
+  display: flex;
+  margin: 20px 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: space-between;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-right: -50px;
+}
+
+.onepair{
+  background-color: white;
+  padding: 30px;
+  width: 450px;
+  margin-right: 30px;
+  border-radius: 12px 12px 12px 12px;
+}
+
+.secpair{
+  background-color: white;
+  padding: 30px;
+  width: 450px;
+  margin-right: 30px;
+  border-radius: 12px 12px 12px 12px;
+}
+
+.onepair h1{
+  float: left;
+  color: green;
+  margin-right: 10px;
+}
+
+.secpair h1{
+  float: left;
+  color: green;
+  margin-right: 10px;
+}
+
+h6{
+  font-size: 30px;
+  margin-left: 120px;
+  padding-top: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.helpful-guide{
+  display: flex;
+  margin: 80px;
+  padding-top: 200px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.helpful-guide img{
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.helpful-guide span p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 8px;
+}
+
+.helpful-guide div h1{
+  padding-bottom: 35px;
+}
+
+.lastimg{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/* ending part of the project */
+.ending{
+  display: flex;
+  margin: 20px;
+  padding-top: 200px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.ending span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ending-2{
+  display: flex;
+  margin: 20px;
+  padding-top: 0px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.ending-3{
+  display: flex;
+  margin: 0px;
+  padding-top: 0px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+footer{
+  margin: auto;
+  padding: 40px;
+}
+
+#last-div{
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
